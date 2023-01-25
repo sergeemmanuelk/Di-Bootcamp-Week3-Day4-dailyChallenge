@@ -44,7 +44,7 @@ function addTask() {
 function checkDoublon(dataInputValue) {
     for (const task of tasks) {
         if (dataInputValue == task.text) {
-            alert("Cette tâche est déjà ajoutée");
+            alert("This task is already added");
             return true;
         }
     }
